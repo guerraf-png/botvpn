@@ -15,4 +15,4 @@ echo 'alias bot='./botssh'' >> /root/.bash_aliases
 rm Installbot
 clear
 echo -e "\e[33mInstalação Concluida\e[0m";
-echo -e "\e[33mDigite "bot" para iniciar ou va ao painel sshplus e inicie o bot\e[0m";
+echo -e "\e[33mDigite "bot" para iniciar\e[0m";
