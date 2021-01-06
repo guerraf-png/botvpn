@@ -1,0 +1,17 @@
+clear
+echo -e "\e[33mInstalando Script Bot\e[0m";
+wget https://raw.githubusercontent.com/guerraf-png/botvpn/main/bot
+wget https://raw.githubusercontent.com/guerraf-png/botvpn/main/botssh
+mv /root/bot /etc/SSHPlus/bot
+mv /root/botssh /bin/botssh
+mkdir /home/root
+touch /home/root/.bash_aliases
+touch /home/ubuntu/.bash_aliases
+touch /root/.bash_aliases
+echo 'alias bot='bash /bin/botssh'' >> /home/root/.bash_aliases
+echo 'alias bot='bash /bin/botssh'' >> /home/ubuntu/.bash_aliases
+echo 'alias bot='bash /bin/botssh'' >> /root/.bash_aliases
+clear
+echo -e "\e[33mInstalação Concluida\e[0m";
+echo -e "\e[33mDigite "bot" para iniciar ou va ao painel sshplus e inicie o bot\e[0m";
+
