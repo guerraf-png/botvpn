@@ -2,6 +2,8 @@ clear
 echo -e "\e[33mInstalando Script Bot\e[0m";
 wget https://raw.githubusercontent.com/guerraf-png/botvpn/main/bot
 wget https://raw.githubusercontent.com/guerraf-png/botvpn/main/botssh
+chmod +x bot
+chmod +x botssh
 mv /root/bot /etc/SSHPlus/bot
 mv /root/botssh /bin/botssh
 mkdir /home/root
