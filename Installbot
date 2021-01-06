@@ -10,11 +10,10 @@ mkdir /home/root
 touch /home/root/.bash_aliases
 touch /home/ubuntu/.bash_aliases
 touch /root/.bash_aliases
-echo 'alias bot='bash /bin/botssh'' >> /home/root/.bash_aliases
-echo 'alias bot='bash /bin/botssh'' >> /home/ubuntu/.bash_aliases
-echo 'alias bot='bash /bin/botssh'' >> /root/.bash_aliases
+echo 'alias bot='/bin/./botssh'' >> /home/root/.bash_aliases
+echo 'alias bot='/bin/./botssh'' >> /home/ubuntu/.bash_aliases
+echo 'alias bot='/bin/./botssh'' >> /root/.bash_aliases
 rm Installbot
 clear
 echo -e "\e[33mInstalação Concluida\e[0m";
 echo -e "\e[33mDigite "bot" para iniciar ou va ao painel sshplus e inicie o bot\e[0m";
-
