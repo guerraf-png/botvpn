@@ -5,6 +5,7 @@ wget https://raw.githubusercontent.com/guerraf-png/botvpn/main/botssh
 chmod +x bot
 chmod +x botssh
 mv /root/bot /etc/SSHPlus/bot
+mv /root/botssh /bin/botssh
 mkdir /home/root
 touch /home/root/.bash_aliases
 touch /home/ubuntu/.bash_aliases
